@@ -1,44 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sansita&display=swap');
+
+@font-face{
+    font-family: La Belle Aurore;
+    src: "https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap";
+}
+@font-face{
+    font-family: Sansita;
+    src: "https://fonts.googleapis.com/css?family=Sansita&display=swap";
+}
+
 body {
-    background-color: rgba(206, 242, 245, 0.336);
+    background-color: rgba(46, 119, 178, 0.352);
     text-align: right;
-    margin: 30px;
+    margin: 0 auto;
 }
 
 #title {
-    font-size: 5em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12em;
     text-align: center;
+    color: black;
+    font-family: La Belle Aurore;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-bottom: 0%;
 }
 
 #subtitle {
     font-size: 2em;
     text-align: center;
+    margin-bottom: 3%;
+    font-family: Sansita;
+}
+
+#frame {
+    background: rgba(255, 255, 255, 0.422);
+    margin: 0 auto;
+    width: 45%;
+    padding: 40px;
+    margin-bottom: 18%;
 }
 
 #bio {
     padding: 30px;
-    background: rgba(255, 255, 255, 0.918);
-    margin: 0 auto;
-    width: 50%;
-    margin-bottom: 5%;
+    background: white;
 }
 
 .text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 25px;
     text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .section-title {
     text-align: center;
     font-size: 2em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Sansita;
 }
 
 img {
     width: 70%;
     margin-right: 15%;
     margin-left: 15%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
